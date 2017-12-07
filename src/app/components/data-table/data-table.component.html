@@ -1,0 +1,17 @@
+
+<div class="table-responsive" *ngIf="currentLevelData!==undefined">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Investment</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let entry of currentLevelData index as i " [ngClass]="{'active': i===activeDataEntry}" id="data{{i}}">
+        <td>{{entry.label[i]}}</td>
+        <td>{{entry.value}} USD</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

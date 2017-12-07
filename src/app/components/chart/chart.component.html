@@ -1,0 +1,12 @@
+<div style="display: block">
+    <canvas baseChart
+            width="200"
+            height="200"
+            [data]="pieData"
+            [labels]="labels"
+            chartType="pie"
+            (chartClick)="selectSlice($event)"
+            [options]="chartOptions"
+            *ngIf = "pieData!==undefined && labels!==undefined"
+    ></canvas>
+  </div>
