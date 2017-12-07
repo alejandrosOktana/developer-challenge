@@ -37,6 +37,6 @@ With the default configuration live-sever makes the page available at http://loc
 A recording of the working app is in the videosample folder
 
 ### Notes
-- Google chrome responsive view doesn't run range inputs correctly, Chrome mobile on a cell phone works fine
+- Google chrome responsive view doesn't show range inputs correctly, Chrome mobile on a cell phone works fine
 
 Development time spent in this project:  12h
