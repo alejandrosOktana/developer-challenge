@@ -38,5 +38,6 @@ A recording of the working app is in the videosample folder
 
 ### Notes
 - Google chrome responsive view doesn't show range inputs correctly, Chrome mobile on a cell phone works fine
+- Current firefox 57.0.1 has an issue with range inputs in responsive mode, when a profile is selected eg. 'Google Nexus 4' range inputs do not respond smoothly and must be clicked to move the slider, dragging doesn't work properly.
 
 Development time spent in this project:  12h
